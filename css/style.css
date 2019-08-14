@@ -103,7 +103,7 @@ a:hover {
     left: 80px;
 }
 .chevron-background {
-    background-color: rgb(70%, 30%, 24%, 0.7);
+    background-color: rgba(70%, 30%, 24%, 0.7);
     width: 39px;
     height: 39px;
     border-radius: 50%;
@@ -151,5 +151,20 @@ a:hover {
     }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
         background-color: #fdf9ea;
+    }
+    .header-row-flex {
+        flex-wrap: wrap;
+    }
+    .header-contact-block a {
+        font-size: 24px;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+    .header-contact-block a i {
+        font-size: 30px;
+    }
+    .navbar-nav {
+        margin: 0;
+        display: block;
     }
 }
