@@ -1,13 +1,74 @@
+@font-face {
+    font-family: '9756';
+    src: url('../fonts/9756.TTF');
+}
+@font-face {
+    font-family: 'LOBSTER';
+    src: url('../fonts/LOBSTER.TTF');
+}
+@font-face {
+    font-family: 'AKROBAT';
+    src: url('../fonts/AKROBAT-EXTRABOLD.OTF'),
+    url('../fonts/AKROBAT-EXTRALIGHT.OTF'),
+    url('../fonts/AKROBAT-REGULAR.OTF'),
+    url('../fonts/AKROBAT-SEMIBOLD.OTF'),
+    url('../fonts/AKROBAT-THIN.OTF');
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    color: #777;
+    font-family: 'AKROBAT';
+    color: #4f341b;
     font-size: 16px;
     line-height: 1.62;
+}
+a {
+    color: #964310;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #964310;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #622916;
 }
 a, button {
     transition: all .3s linear;
 }
 a:hover {
-    color: #f08a14;
+    color: #622916;
     text-decoration: none;
+}
+
+.navbar-header-auto {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+.header-contact-phone a {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+
+
+@media (max-width: 767px) {
+    .navbar-header-auto {
+        display: block;
+    }
+    .navbar-toggle {
+        margin: 0;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #964310;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: #fdf9ea;
+    }
 }
