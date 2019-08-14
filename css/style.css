@@ -39,15 +39,21 @@ a:hover {
     color: #622916;
     text-decoration: none;
 }
-
+.header-block {
+    background-color: #fdf9ea;
+}
 .navbar-header-auto {
     background-color: transparent;
     border: none;
+
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+.navbar-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0;
-    padding: 15px 0;
+    width: 100%;
 }
 .header-contact-phone a {
     font-size: 18px;
@@ -55,9 +61,84 @@ a:hover {
     white-space: nowrap;
     display: inline-block;
 }
-
-
-
+.header-row-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header-contact-block a {
+    color: #b34d3e;
+    font-size: 32px;
+    margin-left: 15px;
+}
+.header-contact-block a:hover {
+    color: #622916;
+}
+.header-contact-block a i {
+    color: #28220a;
+    font-size: 38px;
+}
+.header-contact-block a i:hover {
+    color: #622916;
+}
+.sliders-block {
+    display: flex;
+}
+.owl-carousel, .static-banner {
+    width: 50%;
+    height: 100%;
+}
+.static-banner img {
+    width: 100%;
+}
+.owl-prev {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.owl-next {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+}
+.chevron-background {
+    background-color: rgb(70%, 30%, 24%, 0.7);
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fdf9ea;
+}
+.owl-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 10em;
+    display: inline-block;
+    margin: 10px;
+    transition: background-color .5s ease, transform .5s ease;
+}
+.owl-dot.active {
+    background-color: #fff;
+    border: 2px solid #333;
+    transform: scale(1.5);
+}
+.owl-dots {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.header-logo img {
+    width: 280px;
+}
 @media (max-width: 767px) {
     .navbar-header-auto {
         display: block;
