@@ -139,6 +139,11 @@ a:hover {
 .header-logo img {
     width: 280px;
 }
+.main-title {
+    font-family: 'LOBSTER';
+    text-align: center;
+    font-size: 40px;
+}
 @media (max-width: 767px) {
     .navbar-header-auto {
         display: block;
