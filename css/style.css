@@ -18,7 +18,7 @@
 body {
     font-family: 'AKROBAT';
     color: #4f341b;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.62;
 }
 a {
@@ -143,6 +143,45 @@ a:hover {
     font-family: 'LOBSTER';
     text-align: center;
     font-size: 40px;
+    margin-bottom: 30px;
+}
+.cakes-block-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cakes-item {
+    width: 24%;
+    margin-bottom: 30px;
+}
+.cakes-item img {
+    width: 100%;
+}
+.cakes-description {
+    text-align: center;
+    font-family: '9756';
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+}
+.order-description-text {
+    text-align: center;
+}
+.order-button {
+    text-align: center;
+    margin: 20px 0;
+}
+.order-button-click {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fdf9ea;
+    background-color: #b34d3e;
+    border: 2px solid #b34d3e;
+}
+.order-button-click:hover {
+    background-color: #fdf9ea;
+    color: #b34d3e;
 }
 @media (max-width: 767px) {
     .navbar-header-auto {
