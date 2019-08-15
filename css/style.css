@@ -335,6 +335,9 @@ button.close {
     resize: none;
     margin: 15px 0;
 }
+.modal-survey-text {
+    margin-bottom: 30px;
+}
 @media (max-width: 991px) {
     .cakes-item {
         width: 32%;
