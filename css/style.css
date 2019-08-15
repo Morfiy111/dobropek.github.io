@@ -259,6 +259,32 @@ a:hover {
     width: 56px;
     height: 66px;
 }
+.owl-feedback-form {
+    text-align: center;
+    border: 2px solid #964310;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.owl-feedback-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+}
+.owl-feedback-form a {
+    background-color: #964310;
+    padding: 10px;
+    color: #fdf9ea;
+    border: 2px solid #964310;
+    border-radius: 4px;
+}
+.owl-feedback-form a:hover {
+    background-color: #fdf9ea;
+    color: #964310;
+}
 @media (max-width: 767px) {
     .navbar-header-auto {
         display: block;
@@ -286,5 +312,13 @@ a:hover {
     .navbar-nav {
         margin: 0;
         display: block;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-flex {
+        flex-direction: column;
+        margin-bottom: 20px;
     }
 }
