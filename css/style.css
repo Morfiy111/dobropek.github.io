@@ -345,6 +345,11 @@ button.close {
     .footer-logo img {
         width: 222px;
     }
+    .btn-primary {
+        border-radius: 4px !important;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
 }
 @media (max-width: 767px) {
     .navbar-header-auto {
@@ -390,5 +395,8 @@ button.close {
     }
     .fillings-image, .fillings-description {
         width: 100%;
+    }
+    .button-email {
+        margin-bottom: 10px;
     }
 }
