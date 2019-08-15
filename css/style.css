@@ -234,6 +234,18 @@ a:hover {
 .footer-logo img {
     width: 280px;
 }
+.footer-links button {
+    border: none;
+    background-color: transparent;
+    color: #964310;
+    padding: 0;
+}
+.footer-links button:hover {
+    color: #622916;
+}
+.footer-links button:focus {
+    outline: none;
+}
 #button-up {
     display: none;
     right: 0;
@@ -284,6 +296,44 @@ a:hover {
 .owl-feedback-form a:hover {
     background-color: #fdf9ea;
     color: #964310;
+}
+.btn-primary:active:hover, .btn-primary.active:hover {
+    background-color: #622916;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active {
+    color: #fff;
+    background-color: #622916;
+    border-color: #622916;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #964310;
+    border-color: #964310;
+}
+.btn-primary.active:focus, .btn-primary:focus, .btn-primary:active:focus {
+    outline: none;
+    background-color: #622916;
+    border-color: #622916;
+}
+.btn-primary.active.focus {
+    background-color: #622916;
+    border-color: #622916;
+    outline: none;
+}
+.modal-survey-quest {
+    margin-bottom: 15px;
+}
+button.close {
+    position: relative;
+    z-index: 1;
+    right: 4px;
+}
+.modal-survey-row {
+    margin-bottom: 20px;
+}
+.textarea-modal-desk {
+    resize: none;
+    margin: 15px 0;
 }
 @media (max-width: 991px) {
     .cakes-item {

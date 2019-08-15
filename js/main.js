@@ -47,3 +47,6 @@ $(document).ready(function(){
         return false;
     });
 });
+function myfunction(tx) {
+    document.getElementById('simplearea').innerHTML = tx;
+}

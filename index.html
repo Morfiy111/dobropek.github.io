@@ -109,7 +109,7 @@
         <h2 class="main-title" id="order" name="order">Заказать торт</h2>
         <div class="order-description-text">Выберите начинку и вес, укажите дизайн - и уже через 3 дня, можно будет получить заказ!</div>
         <div class="order-button">
-            <button class="order-button-click">ПОДОБРАТЬ ТОРТ</button>
+            <button class="order-button-click" data-toggle="modal" data-target="#order-button-click">ПОДОБРАТЬ ТОРТ</button>
         </div>
         <h2 class="main-title" id="fillings" name="fillings">Начинки</h2>
         <div class="fillings-block">
@@ -181,10 +181,69 @@
             </div>
         </div>
         <div class="order-button">
-            <button class="order-button-click">ЗАКАЗАТЬ ТОРТ</button>
+            <button class="order-button-click" data-toggle="modal" data-target="#order-button-click">ЗАКАЗАТЬ ТОРТ</button>
         </div>
         <h2 class="main-title" id="delivery" name="delivery">Оплата и доставка</h2>
         <div class="delivery-text">Оставить предоплату и забрать торт можно в любой пекарне Добропек.</div>
+    </div>
+    <div class="modal fade" id="order-button-click" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <div class="modal-body">
+                    <div class="owl-feedback-form js-modal-form">
+                        <h3 class="fillings-description-title">Сделать заказ</h3>
+                        <div class="modal-survey-row">
+                            <div class="modal-survey-quest">Выберите вес</div>
+                            <div class="modal-survey-radio">
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-primary active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> 1,5 кг - на 10 персон
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> 2 кг - на 15 персон
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> 2,5 кг - на 20 персон
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="option4" autocomplete="off"> 3 кг - на 24 персоны
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-survey-row">
+                            <div class="modal-survey-quest">Выберите начинку</div>
+                            <div class="modal-survey-radio">
+                                <div class="btn-group fillings-modal" data-toggle="buttons">
+                                    <label class="btn btn-primary active">
+                                        <input type="radio" name="options" id="fill1" autocomplete="off" checked> Торт Шоколадный с безе
+                                    </label>
+                                    <label class="btn btn-primary" value="1111аыаы">
+                                        <input type="radio" name="options" id="fill2" autocomplete="off"> Торт Тирамису
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="fill3" autocomplete="off"> Торт Трюфель
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="fill4" autocomplete="off"> Торт Медовый
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="fill5" autocomplete="off"> Торт Эстерхази
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="fill6" autocomplete="off"> Торт Ягодный
+                                    </label>
+                                </div>
+                                <textarea rows="6" class="form-control textarea-modal-desk"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <footer class="footer-page-block">
@@ -200,7 +259,7 @@
             <div class="footer-links">
                 <a href="#fillings">Начинки</a>
                 <a href="#delivery">Оплата и доставка</a>
-                <a href="#order" data-toggle="modal" data-target="#footerModal">Написать нам</a>
+                <button href="#order" data-toggle="modal" data-target="#footerModal">Написать нам</button>
                 <div class="modal fade" id="footerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
