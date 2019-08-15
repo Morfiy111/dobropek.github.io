@@ -338,6 +338,9 @@ button.close {
 .modal-survey-text {
     margin-bottom: 30px;
 }
+.footer-copyright p {
+    font-size: 13px;
+}
 @media (max-width: 991px) {
     .cakes-item {
         width: 32%;
