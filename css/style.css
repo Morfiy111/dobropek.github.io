@@ -285,6 +285,14 @@ a:hover {
     background-color: #fdf9ea;
     color: #964310;
 }
+@media (max-width: 991px) {
+    .cakes-item {
+        width: 32%;
+    }
+    .footer-logo img {
+        width: 222px;
+    }
+}
 @media (max-width: 767px) {
     .navbar-header-auto {
         display: block;
@@ -320,5 +328,14 @@ a:hover {
     .footer-flex {
         flex-direction: column;
         margin-bottom: 20px;
+    }
+    .cakes-item {
+        width: 100%;
+    }
+    .fillings-item {
+        flex-direction: column;
+    }
+    .fillings-image, .fillings-description {
+        width: 100%;
     }
 }
