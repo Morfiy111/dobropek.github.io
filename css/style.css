@@ -173,7 +173,7 @@ a:hover {
 }
 .order-button-click {
     border: none;
-    padding: 10px 20px;
+    padding: 20px 40px;
     border-radius: 4px;
     color: #fdf9ea;
     background-color: #b34d3e;
@@ -334,6 +334,9 @@ button.close {
 .textarea-modal-desk {
     resize: none;
     margin: 15px 0;
+    font-family: '9756';
+    line-height: 1.6;
+    font-size: 13px;
 }
 .modal-survey-text {
     margin-bottom: 30px;
