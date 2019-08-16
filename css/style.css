@@ -338,6 +338,9 @@ button.close {
 .modal-survey-text {
     margin-bottom: 30px;
 }
+.order-button-click:focus {
+    outline: none;
+}
 .footer-copyright p {
     font-size: 13px;
 }
