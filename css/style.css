@@ -341,6 +341,14 @@ button.close {
 .footer-copyright p {
     font-size: 13px;
 }
+.order-input-mail {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+}
 @media (max-width: 991px) {
     .cakes-item {
         width: 32%;
