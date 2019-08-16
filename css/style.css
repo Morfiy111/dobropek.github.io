@@ -201,12 +201,16 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    width: 48%;
 }
 .fillings-image {
     width: 28%;
 }
 .fillings-description {
     width: 68%;
+}
+.fillings-desc-text {
+    font-size: 16px;
 }
 .delivery-text {
     font-size: 20px;
@@ -355,6 +359,11 @@ button.close {
     border: 1px solid rgba(122, 122, 122, 0.25);
     border-radius: 2px;
 }
+.fillings-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 @media (max-width: 991px) {
     .cakes-item {
         width: 32%;
@@ -366,6 +375,17 @@ button.close {
         border-radius: 4px !important;
         margin-bottom: 10px;
         margin-right: 10px;
+    }
+    .fillings-item {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .fillings-description {
+        width: 100%;
+    }
+    .fillings-image {
+        width: 60%;
     }
 }
 @media (max-width: 767px) {
@@ -394,7 +414,10 @@ button.close {
     }
     .navbar-nav {
         margin: 0;
-        display: block;
+        flex-wrap: wrap;
+    }
+    .nav > li {
+        width: 50%;
     }
     .footer-logo {
         text-align: center;
@@ -415,5 +438,8 @@ button.close {
     }
     .button-email {
         margin-bottom: 10px;
+    }
+    .fillings-item {
+        width: 100%;
     }
 }
