@@ -386,6 +386,18 @@ button.close {
     background-color: transparent;
     padding: 0;
 }
+.galery-item {
+    width: 12%;
+    margin-bottom: 10px;
+}
+.galery-item img {
+    width: 100%;
+}
+.galery-flex-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 @media (max-width: 991px) {
     .cakes-item {
         width: 32%;
@@ -398,16 +410,11 @@ button.close {
         margin-bottom: 10px;
         margin-right: 10px;
     }
-    .fillings-item {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
     .fillings-description {
-        width: 100%;
+        width: 49%;
     }
     .fillings-image {
-        width: 60%;
+        width: 49%;
     }
     .header-contact-block a {
         font-size: 28px;
@@ -455,11 +462,8 @@ button.close {
     .cakes-item {
         width: 100%;
     }
-    .fillings-item {
-        flex-direction: column;
-    }
     .fillings-image, .fillings-description {
-        width: 100%;
+        width: 49%;
     }
     .button-email {
         margin-bottom: 10px;
