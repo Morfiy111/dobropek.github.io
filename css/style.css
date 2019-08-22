@@ -401,6 +401,16 @@ button.close {
 .modal-result {
     margin-top: 15px;
 }
+.address-block {
+    column-count: 3;
+    text-align: left;
+}
+.modal-text-end {
+    font-size: 12px;
+}
+.main-title-text {
+    text-align: center;
+}
 @media (max-width: 991px) {
     .cakes-item {
         width: 32%;
@@ -479,5 +489,8 @@ button.close {
     }
     .galery-item {
         width: 21%;
+    }
+    .address-block {
+        column-count: 1;
     }
 }
