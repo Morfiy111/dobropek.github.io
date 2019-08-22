@@ -376,7 +376,7 @@ button.close {
     align-items: center;
     flex-wrap: wrap;
 }
-#select-modal {
+#select-modal, #select-modal2 {
     background-color: #fdf9ea;
     width: 100%;
 }
@@ -397,6 +397,9 @@ button.close {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.modal-result {
+    margin-top: 15px;
 }
 @media (max-width: 991px) {
     .cakes-item {
@@ -473,5 +476,8 @@ button.close {
     }
     .order-button-click-header {
         margin-left: 0;
+    }
+    .galery-item {
+        width: 21%;
     }
 }
