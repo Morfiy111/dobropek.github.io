@@ -411,6 +411,15 @@ button.close {
 .main-title-text {
     text-align: center;
 }
+.main-title-text-flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.main-title-text-flex ol {
+    text-align: left;
+}
 @media (max-width: 991px) {
     .cakes-item {
         width: 32%;
