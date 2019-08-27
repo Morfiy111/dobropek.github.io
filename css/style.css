@@ -407,6 +407,7 @@ button.close {
 }
 .modal-text-end {
     font-size: 12px;
+    margin-top: 15px;
 }
 .main-title-text {
     text-align: center;
@@ -419,6 +420,10 @@ button.close {
 }
 .main-title-text-flex ol {
     text-align: left;
+}
+.owl-feedback-form .input-required {
+    border-color: red;
+    outline: 1px solid red;
 }
 @media (max-width: 991px) {
     .cakes-item {
