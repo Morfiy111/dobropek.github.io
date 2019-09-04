@@ -425,6 +425,15 @@ button.close {
     border-color: red;
     outline: 1px solid red;
 }
+.form-message {
+    display: none;
+}
+.form-message.is-active {
+    display: block;
+}
+.form-message h3 {
+    margin-bottom: 20px;
+}
 @media (max-width: 991px) {
     .cakes-item {
         width: 32%;
